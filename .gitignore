@@ -1,6 +1,53 @@
+# Android / Gradle
 .gradle/
 .idea/
 build/
-app/build/
+*/build/
 local.properties
 *.iml
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+
+# Signing keys and certificates
+*.jks
+*.keystore
+*.p12
+*.pem
+*.key
+*.crt
+
+# API keys, secrets, and local config
+.env
+.env.*
+!.env.example
+*.env
+secrets.properties
+secret.properties
+credentials.json
+service-account*.json
+firebase-adminsdk*.json
+google-services.json
+app/google-services.json
+
+# Firebase / Cloud Functions
+.firebase/
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
+functions/node_modules/
+functions/.runtimeconfig.json
+functions/.env
+functions/.env.*
+
+# Node / npm
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE / OS files
+.DS_Store
+Thumbs.db
